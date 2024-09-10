@@ -27,7 +27,7 @@ Jawaban:
     18. Melakukan <i>4 Git Mantras</i> untuk menyimpan hasil ke dalam GitHub.
 
 2. 
-![Blank diagram](https://hackmd.io/_uploads/S1p1twT3C.jpg)
+![Bagan Arsitektur Django](bagan_django.JPEG)
 - urls.py: Memetakan URL ke fungsi views yang sesuai.
 - views.py: Menangani logika aplikasi dan mengatur interaksi dengan model serta template.
 - models.py: Mewakili tabel dalam database dan berfungsi untuk operasi database.
