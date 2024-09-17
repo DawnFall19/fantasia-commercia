@@ -76,7 +76,11 @@ Jawaban:
    14. Membuat fungsi dalam `views.py` yang akan menerima parameter <i>request</i> dan `id` serta memiliki variabel yang akan menyimpan entri dalam `ItemEntry` yang memiliki `id` tertentu lalu mengembalikan sebuah `HttpResponse` dalam bentuk JSON.
    15. Menambahkan <i>import</i> terhadap empat buah fungsi yang telah dibuat ke dalam `urls.py` dan menambahkan `path` terhadap empat buah fungsi tersebut ke dalam variabel `urlpatterns`.
 
+Foto XML Melalui Postman
 ![Penampakan XML Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/blob/main/Images/xml.png)
+Foto JSON Melalui Postman
 ![Penampakan JSON Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/blob/main/Images/json.png)
+Foto XML_BY_ID Melalui Postman
 ![Penampakan XML dengan ID Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/blob/main/Images/xml_by_id.png)
+Foto JSON_BY_ID Melalui Postman
 ![Penampakan JSON dengan ID Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/blob/main/Images/json_by_id.png)
