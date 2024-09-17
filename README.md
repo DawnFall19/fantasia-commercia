@@ -23,7 +23,7 @@ Jawaban:
     18. Melakukan <i>4 Git Mantras</i> untuk menyimpan hasil ke dalam GitHub.
 
 2. 
-![Bagan Arsitektur Django](https://github.com/DawnFall19/fantasia-commercia/blob/main/bagan_django.jpeg)
+![Bagan Arsitektur Django](https://github.com/DawnFall19/fantasia-commercia/Images/bagan_django.jpeg)
 - urls.py: Memetakan URL ke fungsi views yang sesuai.
 - views.py: Menangani logika aplikasi dan mengatur interaksi dengan model serta template.
 - models.py: Mewakili tabel dalam database dan berfungsi untuk operasi database.
@@ -75,3 +75,8 @@ Jawaban:
    13. Membuat fungsi dalam `views.py` yang akan menerima parameter <i>request</i> dan `id` serta memiliki variabel yang akan menyimpan entri dalam `ItemEntry` yang memiliki `id` tertentu lalu mengembalikan sebuah `HttpResponse` dalam bentuk XML.
    14. Membuat fungsi dalam `views.py` yang akan menerima parameter <i>request</i> dan `id` serta memiliki variabel yang akan menyimpan entri dalam `ItemEntry` yang memiliki `id` tertentu lalu mengembalikan sebuah `HttpResponse` dalam bentuk JSON.
    15. Menambahkan <i>import</i> terhadap empat buah fungsi yang telah dibuat ke dalam `urls.py` dan menambahkan `path` terhadap empat buah fungsi tersebut ke dalam variabel `urlpatterns`.
+
+![Penampakan XML Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/Images/xml.png)
+![Penampakan JSON Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/Images/json.png)
+![Penampakan XML dengan ID Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/Images/xml_by_id.png)
+![Penampakan JSON dengan ID Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/Images/json_by_id.png)

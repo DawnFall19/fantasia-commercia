@@ -4,6 +4,7 @@
 
 <h5>Nama: </h5>
 <p>{{ name }}<p>
+
 <h5>Kelas: </h5>
 <p>{{ class }}<p>
 
@@ -23,11 +24,11 @@
   {% endcomment %} 
   {% for item_entry in item_entries %}
   <tr>
-    <td>{{mood_entry.name}}</td>
-    <td>{{mood_entry.price}}</td>
-    <td>{{mood_entry.description}}</td>
-    <td>{{mood_entry.rarity}}</td>
-    <td>{{mood_entry.access_time}}</td>
+    <td>{{item_entry.name}}</td>
+    <td>{{item_entry.price}}</td>
+    <td>{{item_entry.description}}</td>
+    <td>{{item_entry.rarity}}</td>
+    <td>{{item_entry.access_time}}</td>
   </tr>
   {% endfor %}
 </table>
