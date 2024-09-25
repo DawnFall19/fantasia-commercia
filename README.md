@@ -1,6 +1,6 @@
 LINK: http://michael-ignasius-fantasiacommercia.pbp.cs.ui.ac.id/
 
-# TUGAS 1
+# TUGAS 2
 Jawaban:
 1. Step by step:
     1. Membuat <i>virtual environment</i> yang baru kemudian mengaktifkannya.
@@ -46,7 +46,7 @@ Jawaban:
     - Dengan menggunakan Django, operasi seperti menambah, mengubah, menghapus, atau mengambil data dapat dilakukan tanpa menulis SQL langsung. ORM secara otomatis mengubah operasi tersebut menjadi query SQL yang sesuai.
     - Django bersifat database-agnostic, artinya dapat digunakan dengan berbagai jenis database relasional (seperti PostgreSQL, MySQL, SQLite, dll.) tanpa harus menulis query SQL yang spesifik untuk tiap database. ORM yang mengurus konversi query SQL yang sesuai untuk database yang digunakan.
 
-# TUGAS 2
+# TUGAS 3
 Jawaban:
 1. <i>Data delivery</i> sangat penting dalam pengimplementasian sebuah platform karena menjadi fondasi untuk menyampaikan informasi atau data dari satu titik ke titik lainnya, dengan tujuan agar platform dapat berjalan dengan baik. <i>data delivery</i> memastikan bahwa platform yang telah dibuat dapat berfungsi dengan cepat, aman, dan efisien, sekaligus mendukung interaksi pengguna yang lancar dan memastikan integrasi sistem berjalan tanpa masalah.
 
@@ -85,7 +85,7 @@ Foto XML_BY_ID Melalui Postman
 Foto JSON_BY_ID Melalui Postman
 ![Penampakan JSON dengan ID Melalui Postman](https://github.com/DawnFall19/fantasia-commercia/blob/main/Images/json_by_id.png)
 
-# Tugas 3
+# Tugas 4
 Jawaban:
 1.  `HttpResponseRedirect()` adalah fungsi yang menerima URL sebagai parameter dan mengembalikan respons HTTP sedangkan `redirect()` adalah fungsi yang menerima URL atau nama view bersama parameter yang bersangkutan dan akan mengembalikan objek `HttpResponseRedirect()` sehingga `redirect()` adalah bentuk yang lebih umum dan fleksibel dibandingkan `HttpResponseRedirect()`.
 
