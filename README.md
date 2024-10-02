@@ -122,3 +122,30 @@ Jawaban:
    24. Menekan angka 1 jika muncul error, dan menekan angka 1 kembali untuk menetapkan <i>user</i> dengan ID 1 pada model yang sudah ada.
    25. Menambahkan <i>import</i> `os` ke dalam `settings.py`.
    26. Mengganti kode `DEBUG` pada `settings.py` menjadi `PRODUCTION = os.getenv("PRODUCTION", False)` dan `DEBUG = not PRODUCTION`.
+
+# Tugas 5
+Jawaban:
+1. 1. Inline styles
+      <i>Style</i> untuk setiap elemen yang menggunakan atribut `style`.
+   2. ID selectors
+      Menyaring elemen berdasarkan <i>ID</i>-nya. ID bersifat unik sehingga biasanya elemen yang didapat hanya satu.
+   3. Classes selector
+      Menyaring elemen berdasarkan <i>class</i>-nya.
+   4. Element selector
+      Menyaring elemen berdasarkan <i>tag</i>-nya.
+2. Karena memungkinkan situs untuk beradaptasi dengan berbagai ukuran layar dan perangkat, seperti smartphone, tablet, dan desktop, contohnya Facebook, Spotify.
+3. <i>Margin</i> digunakan untuk memisahkan elemen satu sama lain, <i>border</i> adalah garis yang yang mengelilingi elemen untuk menunjukkan batas akhir elemen, <i>padding</i> digunakan untuk memberi ruang diantara isi dan <i>border</i>.
+4. Flexbox akan meletakkan elemen dalam satu dimensi baik secara vertikal atau horizontal, kegunaannya untuk membuat elemen lebih fleksibel dalam mengatur ruang, mendistribusikan elemen, dan menyelaraskan konten dalam wadah secara responsif, seperti menyusun tombol atau elemen navigasi. Grid Layout akan meletakkan elemen dalam dua dimensi dan berguna untuk menampilkan elemen seperti <i>card</i> agar terlihat lebih tersusun dan rapi.
+5. 1. Menambahkan <i>script</i> `tailwind` ke `base.html`.
+   2. Membuat fungsi `edit_item` dan `delete_item` pada `views.py`.
+   3. Membuat berkas `edit_item.html` pada `main/templates` yang akan menjadi halaman perubahan <i>item</i>.
+   4. Menambahkan <i>import</i> terhadap dua fungsi yang telah dibuat ke dalam `urls.py` dan menambahkan <i>path</i>.
+   5. Menambahkan <i>button</i> <i>edit</i> dan <i>delete</i> pada `main.html`.
+   6. Membuat berkas `navbar.html` pada `templates/` yang akan berisi berbagai tombol untuk pergi ke bagian-bagian tertentu dari situs.
+   7. Menambahkan `WhiteNoise` sebagai <i>MiddleWare</i>.
+   8. Mengubah `STATIC_ROOT` dan `STATICFILES_DIRS` pada `settings.py`.
+   9. Membuat berkas `global.css` yang menjadi <i>template</i> dari CSS yang akan digunakan.
+   10. Membuat <i>custom styling</i> pada `global.css`.
+   11. Membuat <i>card_info.html</i> yang menunjukkan informasi tentang <i>user</i>.
+   12. Membuat <i>card_item.html</i> yang menunjukkan informasi tentang setiap <i>item</i> yang dijual <i>user</i>.
+   13. Mengubah seluruh berkas HTML agar menyesuaikan gaya <i>custom styling</i> yang telah dibuat.
