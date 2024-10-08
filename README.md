@@ -149,3 +149,18 @@ Jawaban:
    11. Membuat <i>card_info.html</i> yang menunjukkan informasi tentang <i>user</i>.
    12. Membuat <i>card_item.html</i> yang menunjukkan informasi tentang setiap <i>item</i> yang dijual <i>user</i>.
    13. Mengubah seluruh berkas HTML agar menyesuaikan gaya <i>custom styling</i> yang telah dibuat.
+
+# Tugas 6
+1. Pada dasarnya, keuntungan menggunakan JavaScript dalam pengembangan <i>web</i> adalah manipulasi halaman web dapat dilakukan secara dinamis dan interaksi antara halaman web dengan pengguna dapat meningkat.
+2. Fungsi `await` digunakan untuk menunggu hasil dari fungsi `async`. Tanpa `await`, eksekusi program akan terus berjalan tanpa menunggu hasil dari fungsi yang seharusnya ditunggu.
+3. <i>Decorator</i> `csrf_exempt` membuat Django tidak perlu mengecek keberadaan `csrf_token` pada `POST` request yang dikirimkan ke fungsi ini.
+4. Agar menjaga keamanan aplikasi, karena jika pembersihan dilakukan pada <i>front-end</i>, maka pengguna bisa saja mengubah <i>source code</i> sehingga merusak aplikasi.
+5. 1. Menambahkan <i>error message</i> pada halaman <i>login</i>.
+   2. Membuat fungsi untuk menambahkan <i>item</i> dengan AJAX.
+   3. Menambahkan <i>import</i> terhadap fungsi yang telah dibuat ke dalam `urls.py` dan menambahkan <i>path</i>.
+   4. Mengubah cara pengambilan data menjadi menggunakan `fetch()`.
+   5. Mengubah <i>filter</i> pada `show_xml` dan `show_json`.
+   6. Menambahkan <i>block</i> `script` yang berisikan semua fungsi yang dibutuhkan oleh AJAX.
+   7. Membuat modal sebagai <i>form</i> untuk menambahkan <i>item</i>.
+   8. Membuat fungsi untuk menambahkan data <i>item</i> dengan AJAX
+   9. Menambahkan `strip_tags()` sebagai verifikasi terhadap serangan XSS.
